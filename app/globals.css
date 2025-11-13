@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+html, body { padding: 0; margin: 0; }
+body {
+  color: #e6eaf3;
+  background: #0b1020;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main { position: relative; }
+
+/* Subtle selection */
+::selection { background: rgba(96, 165, 250, 0.32); }
